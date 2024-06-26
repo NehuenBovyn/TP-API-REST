@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header >
+    <h1>Rick and Morty Character</h1>
+    <button id="getAllCharacters">Get character</button>
+  </header>
+  <section>
+  </section>
+  <section>
+    <h2>Filter</h2>
+    <section class="filter-section">
+      <div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="status">Status:</label>
+            <input type="text" id="status">
+        </div>
+      </div>
+      <div>
+        <div>
+            <label for="species">Species:</label>
+            <input type="text" id="species">
+        </div>
+        <div>
+            <label for="type">Type:</label>
+            <input type="text" id="type">
+        </div>
+      </div>
+      <div>
+          <label for="gender">Gender:</label>
+          <input type="text" id="gender">
+      </div>
+      <div class="section-btn">
+        <button id="filterCharacters">Filter </button>
+        <button id="clearFilters">Clear Filter</button>
+      </div>
+    </section>
+  </section>
+  <section>
+    <h2>List of Character</h2>
+    <div id="charactersList"></div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

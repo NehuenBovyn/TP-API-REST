@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #314e1c;
+  color: white;
+}
+
+h1, h2 {
+  color: #c1f762;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#clearFilters{
+  background-color: red;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+#charactersList {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.filter-section{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  margin-bottom: 20px;
+
+}
+
+.character {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #365829;
+  border-radius: 8px;
+  background-color: #7cbc6c;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.character img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.character h3 {
+  margin: 0;
+}
+
+.character p {
+  margin: 5px 0;
+}
