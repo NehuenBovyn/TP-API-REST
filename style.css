@@ -53,6 +53,15 @@ div {
   justify-content: center;
 }
 
+.section-filters-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
 .section-btn {
   display: flex;
   flex-direction: column;
